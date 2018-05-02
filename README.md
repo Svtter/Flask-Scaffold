@@ -15,21 +15,21 @@ Features include
  - Bootstrap 3 Support
  - Datatables support
 
-###[Demo](http://flask-scaffold.herokuapp.com/) Sign Up and Login
+### [Demo](http://flask-scaffold.herokuapp.com/) Sign Up and Login
 
 ![](https://travis-ci.org/Leo-G/Flask-Scaffold.svg?branch=master)
 [![Gitter](https://badges.gitter.im/Leo-G/Flask-Scaffold.svg)](https://gitter.im/Leo-G/Flask-Scaffold?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![PayPal donate button](http://img.shields.io/paypal/donate.png?color=yellow)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=althealobo%40gmail%2ecom&lc=AU&item_name=Leo%2dG&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest)
 
-###Installation
+### Installation
 
 Please ensure that development libraries for [PostgreSQL](http://techarena51.com/index.php/flask-sqlalchemy-postgresql-tutorial/) are installed.
 
-####Step 1:Clone the project to your application folder.
+#### Step 1:Clone the project to your application folder.
 
     git clone git@github.com:Leo-g/Flask-Scaffold.git YourAppFolderName && cd YourAppFolderName
 
-####Step 2: Install the requirements and add your Database configuration details.
+#### Step 2: Install the requirements and add your Database configuration details.
 
     pip install -r requirements.txt
 
@@ -73,14 +73,14 @@ For a list of supported fields please see https://github.com/Leo-g/Flask-Scaffol
 
 ![](http://i.imgur.com/ePILhzh.png)
 
-###Examples
+### Examples
 [Freddy a Blogging Engine](https://github.com/Leo-G/Freddy)
 
 [Running Asynchronous commands on Linux with Flask and Celery](https://github.com/Leo-G/Flask-Celery-Linux)
 
-###Tests
+### Tests
 
-####For E2E testing with protractor
+#### For E2E testing with protractor
 Installation instructions for protractor are in the [wiki](https://github.com/Leo-G/Flask-Scaffold/wiki/Headless-Testing-Angularjs-apps-with-Protractor-and-Selenium-on-Ubuntu-14.04)
 
     # To run tests for all modules
@@ -90,7 +90,7 @@ Installation instructions for protractor are in the [wiki](https://github.com/Le
 
     protractor app/templates/<module_name>/conf.js
 
-####For unit testing with python Unit tests
+#### For unit testing with python Unit tests
 
     For a Single module
 
@@ -100,7 +100,7 @@ Installation instructions for protractor are in the [wiki](https://github.com/Le
 
     bash tests.bash
 
-###API
+### API
 
 API calls can be made to the following URL
 
@@ -116,12 +116,12 @@ Note: This example is for a Post module
 
 The JSON format follows the spec at jsonapi.org and a sample is available in the sample.json   file
 
-###Tutorials
+### Tutorials
 https://techarena51.com/blog/buidling-a-database-driven-restful-json-api-in-python-3-with-flask-flask-restful-and-sqlalchemy/?utm_source=gh-flask-scaffold-readme
 
 https://techarena51.com/blog/tag/flask-tutorials/?utm_source=gh-flask-scaffold-readme
 
-###Directory Structure
+### Directory Structure
         Project-Folder
             |-- config.py
             |--run.py
